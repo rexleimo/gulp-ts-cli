@@ -1,0 +1,26 @@
+{
+  "name": "glup-html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "http:run": "http-server ./dist -a 0.0.0.0 -p 8000"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-import": "^0.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "http-server": "^0.11.1",
+    "merge-stream": "^2.0.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.35.3",
+    "webpack-stream": "^5.2.1"
+  }
+}
+
+
+
